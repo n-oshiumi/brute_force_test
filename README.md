@@ -93,6 +93,8 @@ hydra -L files/id -P files/password example.com http-post-form '/login.php:email
 ```
 
 成功した場合は成功したログインIDとパスワードが表示されます。
+<img width="1440" alt="スクリーンショット 2021-08-15 17 36 01" src="https://user-images.githubusercontent.com/36908016/129472541-57a3bb1e-ff53-4be3-8dcf-3686aba78391.png">
+
 
 
 ちなみにポートは80番を想定しているようなのでローカルでは試せなさそうです。
